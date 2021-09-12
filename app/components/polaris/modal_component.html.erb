@@ -7,9 +7,7 @@
         </div>
       <% end %>
 
-      <button class="Polaris-Modal-CloseButton" aria-label="Close" data-action="modal#dismiss">
-        <%= polaris_icon(name: 'MobileCancelMajor', color: :base) %>
-      </button>
+      <%= close_button %>
     </div>
 
     <%= form_with(@form_options) if form? %>
